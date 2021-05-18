@@ -1,0 +1,114 @@
+body {
+  background-color:#075fb1;
+  font-family: sans-serif;
+  background-size: 100vw 100vh ;
+  background-image: url('assets/wavy.png');
+  background-repeat: no-repeat;
+}
+
+.container2 {
+  height: 100px;
+  min-width: 100px;
+  width: 100vw;
+  margin: auto;
+  background-color: rgb(5, 32, 82);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 10px wavy black;
+}
+
+.container2 h1 {
+  font-size: 45px;
+  font-family: 'Dancing Script', cursive;
+  color: #74b0e9;
+}
+
+.modal {
+  height: 250px;
+  width: 400px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgba(4, 31, 82, 0.342),
+  -5px 5px 10px rgba(4, 31, 82, 0.342),
+  -5px -5px 10px rgba(4, 31, 82, 0.342),
+  5px -5px 10px rgba(4, 31, 82, 0.342);
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.modal p {
+  margin: 20px 5px;
+}
+
+#temp-setting, #wind-setting {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+#temp-setting:hover, #wind-setting:hover {
+  background-color: rgb(94, 94, 94);
+  color: white;
+}
+
+#settings {
+  margin: 50px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+/* Form */
+
+form {
+  color: aliceblue;
+  position: relative;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.555);
+  border-radius: 10px;
+}
+
+form span {
+  position: absolute;
+  top: 60px; left: 15px;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 10px;
+  color: rgb(219, 0, 0);
+  background-color: white;
+}
+.hidden {opacity: 0;}
+
+form h1 {
+  margin-bottom: 10px;
+  font-size: 18px !important;
+}
+
+form input {
+  width: 90px;
+  border: none;
+  height: 20px;
+  padding: 0 6px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+form input:focus {
+  color: #075fb1;
+  outline: none;
+}
+
+form button {
+  background-color: white;
+  border: none;
+  height: 20px;
+  margin: 0;
+  position: relative;
+  right: 10px;
+  border-left: 1px solid rgb(70, 70, 70);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container2">
+    <div id="settings">
+      <button id="temp-setting">
+        <span id="f">F</span> 
+        ↝
+        <span id="c">C</span>
+      </button>
+      <br>
+      <button id="wind-setting">
+        <span id="mph">MPH</span> 
+        ↝
+        <span id="ms">M/s</span>
+      </button>
+    </div>
+
+    <h1 id="header">☁️ Weather in Seattle ☁️</h1>
+
+    <form id="form" action="">
+      <h1>Lookup a new city!</h1>
+      <input type="text" name="city" id="city">
+      <button type="submit">🔍</button>
+      <span id="not-found" class="hidden">That city was not found.</span>
+    </form>
+
+  </div>
+  <div class="modal">
+    <p id="temp">Temperature: </p>
+
+    <p id="high">High for Today: </p>
+
+    <p id="low">Low for Today: </p>
+
+    <p id="wind">Wind: </p>
+
+    <p id="humidity">Humidity: </p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
